@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include<Windows.h>
+//#include<Windows.h>
 #define MAX 2
 using namespace std;
 
@@ -9,7 +9,7 @@ void waitPrint(string type)
     cout << type << " the message";
     for (int i = 0; i < 5; i++)
     {
-        Sleep(250 * (i + 1));
+        //Sleep(250 * (i + 1));
         cout << ".";
     }
 }

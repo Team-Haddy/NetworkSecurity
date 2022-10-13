@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "windows.h"
+//#include "windows.h"
 using namespace std;
 
 void printMessage(string type)
@@ -7,7 +7,7 @@ void printMessage(string type)
     cout << type << " the message";
     for (int i = 0; i < 5; i++)
     {
-        Sleep(100 * (i + 1));
+        //Sleep(100 * (i + 1));
         cout << ".";
     }
 }

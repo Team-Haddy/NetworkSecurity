@@ -76,7 +76,12 @@ void block()
             enc[i] = a[(r1+1)%5][c1];
             enc[i+1] = a[(r2+1)%5][c2];
         }
+        if(r1!=r2 && c1!=c2){
+            enc[i]=a[r1][c2];
+            enc[i+1]=a[r2][c1];
+        }
     }
+    cout<<enc<<"\n";
 }
 
 int main()
