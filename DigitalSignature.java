@@ -53,7 +53,9 @@ public class DigitalSignature {
 
         System.out.println(
                 "Signature : " + bytesToHex(sign) +
-                        "\n\nSignature Verification Status : " + verifySign(s.getBytes(), sign, keyPair.getPublic()));
+                "\n\nSignature Verification Status : " + 
+                verifySign(s.getBytes(), sign, keyPair.getPublic())
+        );
 
         sc.close();
     }
@@ -69,7 +71,7 @@ public class DigitalSignature {
 
 
 
- Enter the string to be encrypted : network
+ Enter the string : network
  Signature : 8593402fd6761f3bde154802f6511d548c09d85c6e41cbc11fab3d7603d7521f51921cda83a65620e06df74238c9a35c4542f76e18c825c3ae7619c6efb294749c205105e7a903135ce81bcb3bae6cecb92651756f9529b69608261862b3fa5a749527973c08827a950d6efeb95b297c3b2297932feae9313cf2a2380aa93029b9e136019f26d971e717948b0bbd031692e978f16a4d300b6381b5c4d968592d0a7b475a7679cbc32cdea0ac4a710b2178ac78f409d6a4487312d05e7ec821ca7679152d65ea277699a2a5664e0546cc6b0d0d5880c1c515ecdf280ed31c2ad3da73fb9a6befb59156510a0511e610e6daaab1ed52d9d7bf0c179770bf765f20
 
  Signature Verification Status : true
