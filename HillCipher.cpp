@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-//#include<Windows.h>
+#include<Windows.h>
 #define MAX 2
 using namespace std;
 
@@ -9,7 +9,7 @@ void waitPrint(string type)
     cout << type << " the message";
     for (int i = 0; i < 5; i++)
     {
-        //Sleep(250 * (i + 1));
+        Sleep(250 * (i + 1));
         cout << ".";
     }
 }
@@ -78,12 +78,6 @@ int main()
     adj[0][1]=-k[0][1];
     adj[1][0]=-k[1][0];
 
-    // for(int i=0; i<MAX; i++){
-    //     for(int j=0; j<MAX; j++){
-    //         adj[i][j] /= d;
-    //     }
-    // }
-
     int dres[MAX][pt.length()/MAX];
     for(int i=0; i<MAX; i++){
         for(int j=0; j<pt.length()/2; j++){
@@ -110,3 +104,33 @@ int main()
             cout<<char(dres[i][j]+97);
 
 }
+
+
+/*
+OUTPUT:
+
+Enter the message to be encrypted : helloworld
+Enter the key : test
+
+
+Plain text in matrix form:
+7       4       11      11      14
+22      14      17      11      3
+
+
+Encrypted Matrix:
+13      2       17      19      18
+24      0       1       17      23
+
+
+Encrypted text:
+ncrtsyabrx
+
+Decrypted Matrix:
+7       4       11      11      14
+22      14      17      11      3
+
+
+Decrypted Text:
+helloworld
+*/
