@@ -222,15 +222,12 @@ int main() {
 
 /*
 =============================
- 128-bit AES Encryption Tool   
+ 128-bit AES Decryption Tool
 =============================
-Enter the message to encrypt: abcde
-abcde
-Encrypted message in hex:
-4b cc bc ac ef ef 6f e9 b1 e1 a3 22 30 bc 98 76 
-Wrote encrypted message to file message.aes
-
-Message.aes:
-
+Read in encrypted message from message.aes
+Read in the 128-bit key from keyfile
+Decrypted message in hex:
+6e 65 74 77 6f 72 6b 0 0 0 0 0 0 0 0 0 46 a1 b2 4f b6 af
+Decrypted message: network
 
 */

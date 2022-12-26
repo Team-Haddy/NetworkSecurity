@@ -220,3 +220,30 @@ int main() {
 
 	return 0;
 }
+
+
+
+/*
+OUTPUT:
+
+=============================
+ 128-bit AES Encryption Tool
+=============================
+Enter the message to encrypt: network
+network
+Encrypted message in hex:
+ce e6 52 a3 ac 59 2d f4 69 35 88 51 65 b6 c5 31
+Wrote encrypted message to file message.aes
+
+
+=============================
+ 128-bit AES Decryption Tool
+=============================
+Read in encrypted message from message.aes
+Read in the 128-bit key from keyfile
+Decrypted message in hex:
+6e 65 74 77 6f 72 6b 0 0 0 0 0 0 0 0 0 46 a1 b2 4f b6 af
+Decrypted message: network
+
+
+*/
