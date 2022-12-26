@@ -47,4 +47,10 @@ public class SHA {
 
  Enter a string to be encrypted : tech
  Encrypted Hashcode : c95ee47689a0aaec70c3eb950244657722c69b1f
+
+ Enter a string to be encrypted : network
+ Encrypted Hashcode : c112e88173d4d3c5c1409a17bee4837673523991
+
+ Enter a string to be encrypted : security
+ Encrypted Hashcode : 8eec7bc461808e0b8a28783d0bec1a3a22eb0821
  */
