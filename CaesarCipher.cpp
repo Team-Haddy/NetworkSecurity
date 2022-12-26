@@ -48,3 +48,31 @@ int main()
 
     cout << "\nDecrypted Text (Plain text) : " << ptt << "\n";
 }
+
+
+/*
+OUTPUT:
+
+Enter the message to be encrypted : meetmeafterthetogaparty
+
+Enter the key (Integer) : 3
+
+Encrypting the message.....
+Encrypted Text (Cipher text) : phhwphdiwhuwkhwrjdsduwb
+
+Decrypting the message.....
+Decrypted Text (Plain text) : meetmeafterthetogaparty
+
+
+
+
+Enter the message to be encrypted : technology
+
+Enter the key (Integer) : 5
+
+Encrypting the message.....
+Encrypted Text (Cipher text) : yjhmstqtld
+
+Decrypting the message.....
+Decrypted Text (Plain text) : technology
+*/
