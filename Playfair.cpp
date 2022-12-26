@@ -28,10 +28,8 @@ void block()
                 {
                     v[(int)ch - 97] = true;
                     a[i][j] = ch++;
-                    // cout<<a[i][j]<<"\n";
                 }
                 else{
-                    // cout<<ch<<"\n";
                     ch++;
                     goto start;
                 }
@@ -88,3 +86,34 @@ int main()
 {
     block();
 }
+
+
+
+/*
+OUTPUT:
+
+Enter Key : test
+t       e       s       a       b
+c       d       f       g       h
+i       j       k       l       m
+n       o       p       q       r
+u       v       w       x       y
+
+
+Enter the text to be encrypted: hello
+dbjapr
+
+
+
+
+Enter Key : monarchy
+m       o       n       a       r
+c       h       y       b       d
+e       f       g       i       j
+k       l       p       q       s
+t       u       v       w       x
+
+
+Enter the text to be encrypted: technology
+mkhyanuhpg
+*/
