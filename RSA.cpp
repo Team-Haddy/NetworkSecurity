@@ -42,7 +42,7 @@ int main()
 	// Choose d such that it satisfies d*e = 1 (mod phi)
 	double d;
 	for (double it = 1; it < phi; it++)
-		if (fmod((fmod(e, phi) * fmod(it, phi)), phi) == 1 && d < phi)
+		if (fmod((fmod(e, phi) * fmod(it, phi)), phi) == 1 && it < phi)
 		{
 			d = it;
 			break;
