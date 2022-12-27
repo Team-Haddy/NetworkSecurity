@@ -38,12 +38,14 @@ int main()
 
     double ka = large_mod(yb, xa, q), kb = large_mod(ya, xb, q);
     cout << "\n\nSecret key calculated by user A : " << ka
-         << "\nSecret key calculated by user B : " << yb;
+         << "\nSecret key calculated by user B : " << kb;
 }
 
 
 /* 
 OUTPUT: 
+
+Enter a prime number to be chosen for the algorithm: 353
 
 Enter a primitive root of q to be chosen for the algorithm: 3
 
@@ -55,5 +57,5 @@ Public key Ya : 40
 Public key Yb : 248
 
 Secret key calculated by user A : 160
-Secret key calculated by user B : 248
+Secret key calculated by user B : 160
 */
